@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1551048037843.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "194B57B7",
+    "lastKnownWriteTime" : 1551385972,
+    "last_content_update" : 1551385972117,
+    "path" : "D:/Study/Data Intensive Computing/Lab1/FluViewPhase2Data/Third.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "16,47",
+        "scrollLine" : "21"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

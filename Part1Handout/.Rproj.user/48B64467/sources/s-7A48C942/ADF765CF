@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1551544262517.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "ADF765CF",
+    "lastKnownWriteTime" : 1551552602,
+    "last_content_update" : 1551555306328,
+    "path" : "D:/Study/Data Intensive Computing/Lab1/Part3/Part3.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "30,130",
+        "scrollLine" : "8",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

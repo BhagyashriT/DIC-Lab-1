@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1551165926287.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "2B4234DD",
+    "lastKnownWriteTime" : 1551386545,
+    "last_content_update" : 1551386545131,
+    "path" : "D:/Study/Data Intensive Computing/Lab1/FluViewPhase2Data/HeatMap.R",
+    "project_path" : null,
+    "properties" : {
+        "cursorPosition" : "13,1",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

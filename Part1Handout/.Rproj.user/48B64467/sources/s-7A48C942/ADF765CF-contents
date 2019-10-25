@@ -1,0 +1,38 @@
+library(jsonlite)
+library(rjson)
+install.packages('tweet2r')
+library(tweet2r)
+lines <- readLines("Fl-en--R-USA.json")
+tweet_df <- fromJSON("Fl-en--R-USA.json")
+business <- as.data.frame(t(sapply(lines, fromJSON)))
+
+df <- t2DataFrame("In-en-en-USA")
+
+
+requestURL <- "https://api.twitter.com/oauth/request_token"
+accessURL <- "https://api.twitter.com/oauth/access_token"
+authURL <- "https://api.twitter.com/oauth/authorize"
+consumerKey <- "YA669uwHHhWbLniabCIM40l3F"
+consumerSecret <- "gW1yzJufD8kFwLYW24tWwp0gSlGTb5SYaHArZmQ4JCVxZgilhM"
+
+#definition of the start time and end time
+t_start<- "2019-03-02 13:58:00"
+t_end<- "2019-03-02 14:58:59"
+
+#definition of the file prefix
+fileprefix="tweets_zero"
+key=c("flu", "H1N1","Influenza A","Influenza B","H3N2","Flu positive","Flu death","Influenza ilness","Influenza","Yamagata","Victoria Lineage","Influenza Virus")
+
+#definition number of tweets per file
+number=3000
+
+#running the function
+tweet2r(t_start=t_start,t_end=t_end,ntweets=number,keywords=key,fileprefix = fileprefix,
+        requestURL =  requestURL,accessURL =  accessURL,authURL = authURL,consumerKey =consumerKey,consumerSecret =consumerSecret,ap)
+
+#running the function using bbox
+#set up a bbox
+bbox=c(-0.1644,39.8485,0.6916,40.0034)
+
+tweet2r(t_start=t_start,t_end=t_end,ntweets=number,bbox=bbox,fileprefix = fileprefix,
+        requestURL,accessURL,authURL,consumerKey,consumerSecret)
